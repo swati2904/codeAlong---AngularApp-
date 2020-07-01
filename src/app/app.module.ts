@@ -7,13 +7,15 @@ import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import {FormsModule} from '@angular/forms';
 import { DataBindingComponent } from './data-binding/data-binding.component';
+import { AboutusComponent } from './aboutus/aboutus.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     HomeComponent,
-    DataBindingComponent
+    DataBindingComponent,
+    AboutusComponent
   ],
   imports: [
     BrowserModule,
